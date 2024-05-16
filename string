@@ -1,1 +1,43 @@
 
+1-> Concatenation: Combining two or more strings into one.
+
+const str1 = 'Hello';
+const str2 = 'World';
+const result = str1 + ' ' + str2; // result: 'Hello World'
+
+
+2-> Length: Getting the length of a string.
+
+const str = 'Hello';
+const length = str.length; // length: 5
+
+
+3-> Accessing Characters: Accessing individual characters in a string.
+
+const str = 'Hello';
+const firstChar = str[0]; // firstChar: 'H'
+const lastChar = str[str.length - 1]; // lastChar: 'o'
+
+4-> Substring: Extracting a portion of a string.
+
+const str = 'Hello World';
+const substring = str.substring(0, 5); // substring: 'Hello'
+
+5-> Substring with Slice: Another way to extract a portion of a string.
+
+const str = 'Hello World';
+const slicedSubstring = str.slice(6); // slicedSubstring: 'World'
+
+6-> Splitting: Splitting a string into an array of substrings based on a delimiter.
+
+const str = 'apple,banana,orange';
+const fruits = str.split(','); // fruits: ['apple', 'banana', 'orange']
+
+7-> Searching: Finding the index of a substring within a string.
+
+const str = 'Hello World';
+const index = str.indexOf('World'); // index: 6
+
+8-> Replacing: Replacing occurrences of a substring with another substring.
+const str = 'Hello World';
+const replacedStr = str.replace('World', 'Universe'); // replacedStr: 'Hello Universe'
