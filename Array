@@ -1,1 +1,62 @@
 
+ -> forEach: Executes a provided function once for each array element.
+
+array.forEach((element, index) => {
+    // code block
+});
+
+-> map: Creates a new array with the results of calling a provided function on every element in the array.
+
+const newArray = array.map((element, index) => {
+    return /* new element */;
+});
+
+-> filter: Creates a new array with all elements that pass the test implemented by the provided function.
+
+const filteredArray = array.filter((element, index) => {
+    return /* true or false */;
+});
+
+-> push: Adds one or more elements to the end of an array and returns the new length of the array.
+
+  array.push(element1, element2, ...);
+
+-> pop: Removes the last element from an array and returns that element.
+
+   const lastElement = array.pop();
+
+-> shift: Removes the first element from an array and returns that element.
+
+  const firstElement = array.shift();
+
+-> unshift: Adds one or more elements to the beginning of an array and returns the new length of the array.
+
+    array.unshift(element1, element2, ...);
+
+-> splice: Changes the contents of an array by removing or replacing existing elements and/or adding new elements.
+
+  array.splice(start, deleteCount, item1, item2, ...);
+
+-> indexOf: Returns the first index at which a given element can be found in the array, or -1 if it is not present.
+
+    const index = array.indexOf(element);
+    const foundElement = array.find((element, index) => {
+    return /* true or false */;
+    });
+
+
+-> join: Joins all elements of an array into a string.
+
+  const joinedString = array.join(separator);
+
+-> toString: Returns a string representing the array and its elements.
+
+  const arrayString = array.toString();
+
+-> slice: Returns a shallow copy of a portion of an array into a new array object.
+
+  const newArray = array.slice(start, end);
+
+
+   
+   
