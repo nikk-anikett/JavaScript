@@ -8,7 +8,7 @@ const result = str1 + ' ' + str2; // result: 'Hello World'
 
 2-> Length: Getting the length of a string.
 
-const str = 'Hello';
+const str = 'Hello Akshat';
 const length = str.length; // length: 5
 
 
